@@ -8,7 +8,7 @@ import base64
 import csv
 from random import shuffle
 
-with open("NotThatBigAF.txt", encoding='utf-8') as file:
+with open("Big-wC.txt", encoding='utf-8') as file:
     data = file.read().split('\n')
     data = [x for x in data if len(x) != 0]
     data = data[:len(data)//3000]
